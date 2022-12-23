@@ -1,17 +1,17 @@
 # Azure Key Vault Permission Test
 
 ## Prerequisites
+- Install azure-keyvault-keys and azure-identity using pip:
+```
+pip install azure-keyvault-keys azure-identity
+```
 
+## Usage
 Optional:
 Setup virtual enviornment using the following commands;
 ```
 python3 -m venv ./key
 source key/bin/activate
-```
-
-- Install azure-keyvault-keys and azure-identity using pip:
-```
-pip install azure-keyvault-keys azure-identity
 ```
 - Provide values for TenantID, ClientID, Client Secret, Vault URL and Key Name at prompt.
 - If the permissions are setup correctly, output should look like the one below;
