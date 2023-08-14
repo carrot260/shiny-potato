@@ -14,7 +14,7 @@ python3 -m venv ./key
 source key/bin/activate
 ```
 1. Run azure_keyvault_testing_v0.2.py
-2. Provide values for TenantID, ClientID, Client Secret, Vault URL and Key Name at prompt.
+2. Provide values for TenantID, ClientID, Client Secret, Vault URL and Key Name at prompt (Use the same credentials that was used for MongoDB Atlas).
 3. If the permissions are setup correctly, output should look like the one below;
 ```
 Enter TenantID: 9e4546-f5665-465-b565-9656546546
