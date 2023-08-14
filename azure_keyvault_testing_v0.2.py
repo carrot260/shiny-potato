@@ -7,6 +7,7 @@ from azure.identity import ClientSecretCredential
 from azure.keyvault.keys import KeyClient
 from azure.keyvault.keys.crypto import CryptographyClient, EncryptionAlgorithm
 
+print('----------START COPY HERE----------')
 TENANT_ID=input("Enter TenantID: ")
 CLIENT_ID=input("Enter ClientID: ")
 CLIENT_SECRET=getpass.getpass(prompt='Enter Client Secret(HIDDEN): ')
@@ -56,3 +57,4 @@ decrypted_string = crypto_client.decrypt(
 )
 
 print(f"Decrypted_string: {decrypted_string.plaintext}")
+print('----------END COPY HERE----------')
